@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+}
+
+span {
+    color: red;
+}
+
+strong {
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+.card-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    padding: 1em 0;
+
+}
+
+/*Carets */
+.arrow {
+    border: solid #333;
+    border-width: 0 10px 10px 0;
+    display: inline-block;
+    padding: .25em;
+}
+
+.right {
+    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    /*border: 1px solid red;*/
+    padding: 1em;
+}
+.scoville {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+}
+
+.caret-left,
+.caret-right, 
+.thermo-level {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4em 0;
+}
+
+.thermo-level{
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 1), rgba(255, 165, 0, 1), rgba(255, 165, 0, 1), rgba(255, 255, 0, 1), rgba(255, 255, 255, 1));
+    padding: 0 2em;
+}
+
+.left-peppers {
+    display: flex;
+    flex-direction: column;
+    flex: 2;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+    padding: 2.5em 1em;
+    /*border: 1px solid green;*/
+}
+
+.right-peppers{
+    flex: 2;
+    justify-content: space-around;
+    text-align: left;
+    padding: 1em;
+    /*border: 1px solid green;*/
+}
+
+.pepper-card {
+    width: 100%;
+    max-width: 14em;
+    height: 6em;
+    padding: 4em 0;
+    margin: 0 4em;
+}
+
+.left-peppers .pepper-card {
+    padding: 2em 0;
+}
+
+.level {
+    padding: 1em 0;
+    border-top: 2px solid #555;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+    color: green;
+    text-transform: uppercase;
+}
+
+.card-title {
+    font-weight: 600;
+    text-transform: uppercase;
+    padding: 1em 0;
+}
+
+.card-content {
+    font-size: 1.25rem;
+    padding: 0 1em;
+}
+
+.level-number {
+    font-size: 2rem;
+    color: #555;
+}
